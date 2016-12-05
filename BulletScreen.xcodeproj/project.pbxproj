@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3D6F31F1DF504E900B50F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D6F31E1DF504E900B50F37 /* main.m */; };
+		F3D6F3221DF504E900B50F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D6F3211DF504E900B50F37 /* AppDelegate.m */; };
+		F3D6F3251DF504E900B50F37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D6F3241DF504E900B50F37 /* ViewController.m */; };
+		F3D6F3281DF504E900B50F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D6F3261DF504E900B50F37 /* Main.storyboard */; };
+		F3D6F32A1DF504E900B50F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D6F3291DF504E900B50F37 /* Assets.xcassets */; };
+		F3D6F32D1DF504E900B50F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D6F32B1DF504E900B50F37 /* LaunchScreen.storyboard */; };
+		F3D6F3361DF5050300B50F37 /* FlyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D6F3351DF5050300B50F37 /* FlyTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3D6F31A1DF504E900B50F37 /* BulletScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulletScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D6F31E1DF504E900B50F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3D6F3201DF504E900B50F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3D6F3211DF504E900B50F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3D6F3231DF504E900B50F37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3D6F3241DF504E900B50F37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3D6F3271DF504E900B50F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3D6F3291DF504E900B50F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3D6F32C1DF504E900B50F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3D6F32E1DF504E900B50F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D6F3341DF5050300B50F37 /* FlyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyTextView.h; sourceTree = "<group>"; };
+		F3D6F3351DF5050300B50F37 /* FlyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3D6F3171DF504E900B50F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3D6F3111DF504E900B50F37 = {
+			isa = PBXGroup;
+			children = (
+				F3D6F31C1DF504E900B50F37 /* BulletScreen */,
+				F3D6F31B1DF504E900B50F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3D6F31B1DF504E900B50F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3D6F31A1DF504E900B50F37 /* BulletScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3D6F31C1DF504E900B50F37 /* BulletScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F3D6F3201DF504E900B50F37 /* AppDelegate.h */,
+				F3D6F3211DF504E900B50F37 /* AppDelegate.m */,
+				F3D6F3231DF504E900B50F37 /* ViewController.h */,
+				F3D6F3241DF504E900B50F37 /* ViewController.m */,
+				F3D6F3341DF5050300B50F37 /* FlyTextView.h */,
+				F3D6F3351DF5050300B50F37 /* FlyTextView.m */,
+				F3D6F3261DF504E900B50F37 /* Main.storyboard */,
+				F3D6F3291DF504E900B50F37 /* Assets.xcassets */,
+				F3D6F32B1DF504E900B50F37 /* LaunchScreen.storyboard */,
+				F3D6F32E1DF504E900B50F37 /* Info.plist */,
+				F3D6F31D1DF504E900B50F37 /* Supporting Files */,
+			);
+			path = BulletScreen;
+			sourceTree = "<group>";
+		};
+		F3D6F31D1DF504E900B50F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D6F31E1DF504E900B50F37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3D6F3191DF504E900B50F37 /* BulletScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D6F3311DF504E900B50F37 /* Build configuration list for PBXNativeTarget "BulletScreen" */;
+			buildPhases = (
+				F3D6F3161DF504E900B50F37 /* Sources */,
+				F3D6F3171DF504E900B50F37 /* Frameworks */,
+				F3D6F3181DF504E900B50F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulletScreen;
+			productName = BulletScreen;
+			productReference = F3D6F31A1DF504E900B50F37 /* BulletScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3D6F3121DF504E900B50F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "宇玄丶";
+				TargetAttributes = {
+					F3D6F3191DF504E900B50F37 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KK59AKUJZC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3D6F3151DF504E900B50F37 /* Build configuration list for PBXProject "BulletScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3D6F3111DF504E900B50F37;
+			productRefGroup = F3D6F31B1DF504E900B50F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3D6F3191DF504E900B50F37 /* BulletScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3D6F3181DF504E900B50F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D6F32D1DF504E900B50F37 /* LaunchScreen.storyboard in Resources */,
+				F3D6F32A1DF504E900B50F37 /* Assets.xcassets in Resources */,
+				F3D6F3281DF504E900B50F37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3D6F3161DF504E900B50F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D6F3251DF504E900B50F37 /* ViewController.m in Sources */,
+				F3D6F3221DF504E900B50F37 /* AppDelegate.m in Sources */,
+				F3D6F31F1DF504E900B50F37 /* main.m in Sources */,
+				F3D6F3361DF5050300B50F37 /* FlyTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3D6F3261DF504E900B50F37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D6F3271DF504E900B50F37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3D6F32B1DF504E900B50F37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D6F32C1DF504E900B50F37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3D6F32F1DF504E900B50F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3D6F3301DF504E900B50F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3D6F3321DF504E900B50F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KK59AKUJZC;
+				INFOPLIST_FILE = BulletScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byy.BulletScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3D6F3331DF504E900B50F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KK59AKUJZC;
+				INFOPLIST_FILE = BulletScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.byy.BulletScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3D6F3151DF504E900B50F37 /* Build configuration list for PBXProject "BulletScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D6F32F1DF504E900B50F37 /* Debug */,
+				F3D6F3301DF504E900B50F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D6F3311DF504E900B50F37 /* Build configuration list for PBXNativeTarget "BulletScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D6F3321DF504E900B50F37 /* Debug */,
+				F3D6F3331DF504E900B50F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3D6F3121DF504E900B50F37 /* Project object */;
+}
